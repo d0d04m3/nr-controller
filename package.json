@@ -5,10 +5,7 @@
     "node-red": "2.0.5"
   },
   "scripts": {
- 
-    "init-assets": "/app/node_modules/.bin/node-red admin init",
-    "init-server": "/app/node_modules/.bin/node-red",
-    "start": "npm run init-assets && npm run init-server"
+    "start": "/app/node_modules/.bin/node-red"
 
   }
 }
